@@ -5,7 +5,7 @@ const Button = ()=>{
     let [clicked, setClicked] = useState(0);
 
     function countClick(){
-        setClicked(clicked+1);
+        setClicked(clicked+1); 
     }
     return (
         <div>
